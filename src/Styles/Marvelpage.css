@@ -1,0 +1,12 @@
+.marvelpage{
+ background-image: url("https://r4.wallpaperflare.com/wallpaper/581/969/141/iron-man-iron-man-3-tony-stark-sea-wallpaper-793048cdd1ca5ddb063768dfd051a68d.jpg");
+background-repeat: no-repeat;
+background-position: cover;
+background-position: center;
+  
+}
+
+.overlay-5{
+ background:linear-gradient(to top, #121111 20%,transparent);
+ bottom: 0;
+}   
