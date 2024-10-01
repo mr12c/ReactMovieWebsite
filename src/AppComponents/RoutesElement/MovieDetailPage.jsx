@@ -16,7 +16,7 @@ function MovieDetail() {
       <NavLink to="/" className="absolute myhomebtn">Home</NavLink>
     <img src={data?.backdrop_path} className='lg:bg-cover bg-center object-fill  w-full h-full' alt="" />
     <div className='absolute bottom-0 w-full h-[300%] overlay-2m'></div>
-     <div className='absolute mx-w-[90%]  w-[1400px] top-[80%]  translate-y-[-50%] max-w-[90%]  lg:flex flex lg:flex-row flex-col gap-10  left-[50%] translate-x-[-45%]'>
+     <div className='absolute mx-w-[90%]  w-[1400px] lg:top-[50%] top-[80%] translate-y-[-50%] max-w-[90%]  lg:flex flex lg:flex-row flex-col gap-10  left-[50%] translate-x-[-45%]'>
         <img src={data?.poster_path} alt=""  className='lg:w-[28rem]  w-[20rem] movieimg aspect-1 rounded-3xl'/>
         <div className='h-fit lg:translate-y-[25%] translate-y-[0%]' >
               <h1 className='lg:text-[3rem] text-[2.2rem] font-semibold'>{data?.title}</h1>

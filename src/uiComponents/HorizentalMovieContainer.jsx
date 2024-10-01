@@ -68,7 +68,7 @@ function HorizentalMovieContainer({label}) {
     <div className='w-[2049px] max-w-[97%] mx-auto movieContainer  lg:mt-[1.4rem] mt-[90%] '>
         <h1 className='text-[1.4rem] font-medium pb-1'>{label}</h1>
          <div className='w-[95%] mx-auto flex gap-3 *:rounded-sm overflow-auto'>
-         <Sdwiper className=' w-full swiper-container  py-4'  
+         <Swiper className=' w-full swiper-container  py-4'  
       // install Swiper modules
       
       modules={[Navigation, Scrollbar, A11y]}
@@ -100,7 +100,7 @@ function HorizentalMovieContainer({label}) {
       
       
       
-    </Sdwiper>
+    </Swiper>
          </div>
     </div>
   )

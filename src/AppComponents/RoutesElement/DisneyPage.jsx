@@ -14,6 +14,9 @@ function DisneyPage() {
         setmydata(data)
 
     })
+    useEffect(()=>{
+      window.scrollTo(0,0)
+    })
     
   return (
     <div className='disneypage w-screen h-screen   overflow-auto  '>
